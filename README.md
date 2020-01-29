@@ -32,7 +32,7 @@ As seguintes funcionalidades estão disponíveis:
 ### Obter listas e categorias de programas
 
 | Método | URL | Descrição |
-|---|---|---|---|---|
+|---|---|---|
 | GET | `/programas/` | Obtém a primeira página de programas de TV On-Demand do RTP Play  |
 | GET | `/programas/categorias` | Obtém todas as categorias de programas do RTP Play  |
 | GET | `/programas/:category/` | Obtém a primeira página da lista de programas da categoria `:category`  |
@@ -41,7 +41,7 @@ As seguintes funcionalidades estão disponíveis:
 ### Obter programas, episódios e partes
 
 | Método | URL | Descrição |
-|---|---|---|---|---|
+|---|---|---|
 | GET | `/programa/:id` | Obtém a primeira página da lista de episódios do programa `:id`  |
 | GET | `/programa/:id/:episode` | Obtém os objetos necessários à reprodução do programa passado nos parâmetros   |
 | GET | `/programa/:id/:episode/:name` | O mesmo que o método anterior |
