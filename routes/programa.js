@@ -39,7 +39,7 @@ var x = Xray({
       findStream: function(value) {
         let returnValue = value;
         if (typeof value === 'string') {
-            const foundArr = /https:\/\/ondemand-streaming.rtp.pt\/.*:[0-9]+/g.exec(value);
+            const foundArr = /https:\/\/streaming-ondemand.rtp.pt\/.*:[0-9]+/g.exec(value);
             returnValue = foundArr && foundArr.length ? foundArr[0] : null;
         }
         return returnValue;
